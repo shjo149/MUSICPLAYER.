@@ -1,0 +1,124 @@
+body {
+    background: #F5F5F5;
+    overflow-y: scroll;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 20px 0px;
+    transform: translate(-58%, -50%);
+    width: 300px;
+}
+
+.app {
+    width: 328px;
+    height: 580px;
+    border-radius: 40px;
+    background: #e8e0e8;
+    box-shadow: 11px 11px 39px #949494, -11px -11px 19px #ffffff;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    outline: none;
+    border: none;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #b6a9a9,
+        -5px -5px 10px #ffffff;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.bar {
+    position: absolute;
+    right: -15px;
+    top: 20px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 30px;
+    color: #666
+}
+
+.image {
+    width: 220px;
+    height: 220px;
+    margin: 50px 50px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 11px 11px 22px #a4a4a4,
+        11px 11px 22px #ffffff;
+}
+
+img {
+    margin: -23px;
+    border-radius: 50%;
+}
+
+.image h2,
+p {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.image p {
+    text-align: center;
+    color: #666;
+    margin: -15px;
+}
+
+.track {
+    width: 260px;
+    height: 15px;
+    border-radius: 30px;
+    margin: 120px 30px;
+    background: #e0e0e0;
+    box-shadow: 7px 7px 14px #b8b8b8,
+        -5px -5px 14px #ffffff;
+}
+
+.track:after {
+    content: "";
+    position: absolute;
+    background: gray;
+    border-radius: 30px;
+    width: 170px;
+    height: 15px;
+}
+
+.heart {
+    position: absolute;
+    margin: -70px 40px;
+    color: red;
+}
+
+.backward {
+    position: absolute;
+    margin: -70px 110px;
+}
+
+.play {
+    position: absolute;
+    margin: -70px 180px;
+}
+
+.forward {
+    position: absolute;
+    margin: -70px 250px;
+}
